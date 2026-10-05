@@ -1,0 +1,1 @@
+# Sistema web para cadastrar, listar, editar e excluir brinquedos de uma loja. Desenvolvido em PHP, MySQL e Bootstrap, com a estrutura de pastas baseada no projeto RailPulse.

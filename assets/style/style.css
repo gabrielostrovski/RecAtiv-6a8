@@ -1,0 +1,58 @@
+:root {
+  --rail-bg: #f4f7fb;
+  --rail-surface: #ffffff;
+  --rail-line: #e5e7eb;
+  --rail-text: #1f2937;
+  --rail-muted: #5f6f82;
+  --rail-blue: #2d97d4;
+  --rail-shadow: 0 12px 28px rgba(15, 23, 42, 0.08);
+}
+
+body {
+  background: var(--rail-bg);
+  color: var(--rail-text);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+}
+
+.navbar-brand {
+  letter-spacing: -0.04em;
+}
+
+.card-soft {
+  background: var(--rail-surface);
+  border: 1px solid var(--rail-line);
+  border-radius: 0.9rem;
+  box-shadow: var(--rail-shadow);
+}
+
+.table-soft th {
+  background: #f8fafc;
+  color: var(--rail-text);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.badge-soft {
+  background: #edf7ff;
+  color: var(--rail-blue) !important;
+}
+
+.btn {
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-primary:hover,
+.btn-outline-secondary:hover,
+.btn-outline-danger:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(45, 151, 212, 0.18);
+}
+
+@media (max-width: 575.98px) {
+  main.container {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}

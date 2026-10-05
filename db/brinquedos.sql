@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS brinquedos
+    CHARACTER SET utf8mb4;
+
+USE brinquedos;
+
+CREATE TABLE IF NOT EXISTS brinquedos (
+    id_brinquedo INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(120) NOT NULL,
+    categoria VARCHAR(80) NOT NULL,
+    faixa_etaria VARCHAR(50) NOT NULL,
+    preco DECIMAL(10, 2) NOT NULL,
+    quantidade INT UNSIGNED NOT NULL DEFAULT 0
+);
